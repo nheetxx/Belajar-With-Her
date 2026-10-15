@@ -10,8 +10,12 @@ elif operator == "/":
     hasil = angkasatu / angka2
 elif operator == "-":
     hasil = angkasatu - angka2
+elif operator == "%":
+    hasil = angkasatu % angka2
+elif operator == "//":
+    hasil = angkasatu // angka2
 else:
-    print("Apasihhh")
+    print("Apasihhh, yg bener donhhh")
     exit()
 
 print("Angkanya adalah : ", hasil)
