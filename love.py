@@ -31,7 +31,6 @@ for i in range(n):
     a = 2 * math.pi * i / n
     x, y = bentuk(a)
     points.append((x * skala, y * skala))
-
 for _ in range(60):
     a = random.uniform(0, 2 * math.pi)
     k = random.uniform(0.3, 0.85)
@@ -69,7 +68,6 @@ for x, y in points:
     
     for item in cv.find_all()[n0: ]:
         cv.tag_lower(item)
-    
     inti = tuple(min(255, v + 90) for v in c)
     tulis(x, y, t, hex_(inti), u)
     
